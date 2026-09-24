@@ -3,29 +3,53 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI Face Studio — FaceScan: AI Face Analysis</title>
-<meta name="description" content="FaceScan by AI Face Studio: AI face shape analysis, hairstyle recommendations and a 90-day facial exercise plan.">
-<meta http-equiv="refresh" content="0; url=https://yesyesyeslucas-cmd.github.io/face-scan/">
-<link rel="canonical" href="https://yesyesyeslucas-cmd.github.io/face-scan/">
+<title>FaceScan: AI Face Analysis — by AI Face Studio</title>
+<meta name="description" content="FaceScan by AI Face Studio: AI face shape and side-profile analysis, personalized hairstyle recommendations and a 90-day facial exercise plan.">
 <style>
-  body{ margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center; background:#060B12; color:#EAF2F0;
-    font-family:system-ui,-apple-system,"Segoe UI",sans-serif; text-align:center; padding:24px; box-sizing:border-box; }
-  a{ color:#22D3EE; }
-  h1{ font-size:26px; margin:0 0 8px; }
-  p{ color:#7C8B95; margin:6px 0; }
+  :root{ --bg:#060B12; --panel:#0B131E; --line:rgba(34,211,238,0.18); --signal:#22D3EE; --ink:#EAF2F0; --dim:#8A98A2; }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  body{ background:radial-gradient(ellipse at 50% -10%, rgba(34,211,238,0.09), transparent 55%), var(--bg); color:var(--ink);
+    font-family:system-ui,-apple-system,"Segoe UI",sans-serif; line-height:1.55; padding:48px 20px 40px; }
+  main{ max-width:620px; margin:0 auto; }
+  h1{ font-size:clamp(30px,8vw,44px); line-height:1.1; letter-spacing:-0.02em; }
+  .by{ color:var(--dim); margin-top:6px; }
+  .lead{ margin-top:20px; font-size:17px; color:#CDD8D6; max-width:52ch; }
+  .cta{ display:inline-block; margin-top:26px; padding:14px 22px; border-radius:12px; background:var(--signal); color:#062019; font-weight:700; text-decoration:none; }
+  ul{ list-style:none; margin-top:30px; border-top:1px solid var(--line); }
+  li{ padding:12px 0; border-bottom:1px solid var(--line); color:#CDD8D6; }
+  .price{ margin-top:26px; color:#CDD8D6; }
+  .price strong{ color:var(--ink); }
+  footer{ margin-top:40px; font-size:14px; color:var(--dim); }
+  footer nav a{ color:var(--signal); margin-right:16px; display:inline-block; margin-bottom:8px; }
+  a:focus-visible{ outline:2px solid var(--signal); outline-offset:3px; border-radius:6px; }
 </style>
 </head>
 <body>
-  <main>
-    <h1>FaceScan: AI Face Analysis</h1>
-    <p>by AI Face Studio</p>
-    <p style="margin-top:18px;"><a href="https://yesyesyeslucas-cmd.github.io/face-scan/">Open FaceScan</a></p>
-    <p style="margin-top:18px; font-size:14px;">
-      <a href="https://yesyesyeslucas-cmd.github.io/face-scan/pricing.html">Pricing</a> ·
-      <a href="https://yesyesyeslucas-cmd.github.io/face-scan/terms.html">Terms</a> ·
-      <a href="https://yesyesyeslucas-cmd.github.io/face-scan/privacy.html">Privacy</a> ·
+<main>
+  <h1>FaceScan: AI Face Analysis</h1>
+  <p class="by">by AI Face Studio</p>
+  <p class="lead">Take a selfie and FaceScan measures your face shape and side profile, then recommends hairstyles that suit you and gives you a 90-day facial exercise plan. Photos are processed on your device.</p>
+  <a class="cta" href="https://yesyesyeslucas-cmd.github.io/face-scan/">Open FaceScan</a>
+
+  <ul>
+    <li>Face shape scan — oval, round, square, heart, diamond, oblong or triangle</li>
+    <li>Side profile analysis — straight, convex or concave</li>
+    <li>Personalized hairstyle guide</li>
+    <li>90-day facial exercise plan</li>
+  </ul>
+
+  <p class="price">Free to start. <strong>Premium: $10/month or $30/year</strong>, with a 7-day free trial. <a href="https://yesyesyeslucas-cmd.github.io/face-scan/pricing.html" style="color:var(--signal);">See pricing</a></p>
+
+  <footer>
+    <nav>
+      <a href="https://yesyesyeslucas-cmd.github.io/face-scan/pricing.html">Pricing</a>
+      <a href="https://yesyesyeslucas-cmd.github.io/face-scan/terms.html">Terms of Service</a>
+      <a href="https://yesyesyeslucas-cmd.github.io/face-scan/privacy.html">Privacy Policy</a>
       <a href="https://yesyesyeslucas-cmd.github.io/face-scan/refund.html">Refund Policy</a>
-    </p>
-  </main>
+    </nav>
+    <p style="margin-top:12px;">Contact: <a href="mailto:sgtim1020@gmail.com" style="color:var(--signal);">sgtim1020@gmail.com</a></p>
+    <p>© 2026 AI Face Studio</p>
+  </footer>
+</main>
 </body>
 </html>
